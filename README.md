@@ -21,6 +21,11 @@ agreement is at machine precision (relative errors ≤ 2e-16). Results
 without a passing benchmark do not officially exist in this project — see
 `docs/VALIDATION.md`.
 
+A first desktop tool ships with v0.1.0: `ibrt-beam` (PySide6) analyzes a
+simply supported beam, plots deflection and moment diagrams, displays
+FEM vs. analytic values side by side and opens a "glasbox" view of the
+global stiffness matrix.
+
 ## Getting started
 
 ```bash
